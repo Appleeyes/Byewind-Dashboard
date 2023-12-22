@@ -1,25 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Byewind Dashboard</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <header>
         <nav>
             <img src="media/sidebar.svg" alt="">
             <img src="media/star.svg" alt="">
+            <h2>Dashboards</h2>
             <p>/</p>
-            <h2>Dashboard</h2>
             <h1>Default</h1>
         </nav>
     </header>
 
+    <main>
+        <section id="time">
+            <h3>Today</h3>
+            <img src="media/arrow-head.svg" alt="">
+        </section>
+        <section id="statuses">
+            <div class="status status-1">
+                <p>Views</p>
+                <div></div>
+                <h3>721K</h3>
+                <div class="badge">
+                    <p>+11.01%</p>
+                    <img src="media/arrow-rise.svg" alt="">
+                </div>
+            </div>
+
+            <div class="status status-2">
+                <p>Visits</p>
+                <div></div>
+                <h3>367K</h3>
+                <div class="badge">
+                    <p>+9.15%</p>
+                    <img src="media/arrow-rise.svg" alt="">
+                </div>
+            </div>
+
+            <div class="status status-3">
+                <p>New Users</p>
+                <div></div>
+                <h3>1,156</h3>
+                <div class="badge">
+                    <p>-0.56%</p>
+                    <img src="media/arrow-fall.svg" alt="">
+                </div>
+            </div>
+
+            <div class="status status-4">
+                <p>Active Users</p>
+                <div></div>
+                <h3>239K</h3>
+                <div class="badge">
+                    <p>-1.48%</p>
+                    <img src="media/arrow-fall.svg" alt="">
+                </div>
+            </div>
+        </section>
+        <section id="chart">
+            <div class="head">
+                <a class="active" href="#">Total Users</a>
+                <a href="#">Total Projects</a>
+                <a href="#">Operating Status</a>
+            </div>
+            <div class="main-chart">
+                <div>
+                    <div class="chart-content">
+                        <p>15M</p>
+                        <hr>
+                    </div>
+                    <div class="chart-content">
+                        <p>10M</p>
+                        <hr>
+                    </div>
+                    <div class="chart-content">
+                        <p>5M</p>
+                        <hr>
+                    </div>
+                    <div class="chart-content">
+                        <p>1M</p>
+                        <hr>
+                    </div>
+                    <div class="chart-content">
+                        <p>0</p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="days-content">
+                    <span></span>
+                    <div class="days">
+                        <p>Mon</p>
+                        <p>Tue</p>
+                        <p>Wed</p>
+                        <p>Thu</p>
+                        <p>Fri</p>
+                        <p>Sat</p>
+                        <p>Sun</p>
+                    </div>
+                </div>
+            </div>
+            <div class="img1">
+                <img src="media/wave-black.svg" alt="">
+            </div>
+            <div class="img2">
+                <img src="media/wave-blue.svg" alt="">
+            </div>
+            <div class="img3">
+                <img src="media/chart-dot.svg" alt="">
+            </div>
+            <div class="time">
+                <p>Fri: 5,256,598</p>
+            </div>
+        </section>
+        <section id="web-traffic">
+            <h3>Traffic by Website</h3>
+            <div>
+                <div class="chart-content chart-content1">
+                    <p>Google</p>
+                    <div class="span-line">
+                        <hr><span></span>
+                    </div>
+                    
+                </div>
+                <div class="chart-content chart-content2">
+                    <p>Youtube</p>
+                    <div class="span-line">
+                        <hr><span></span>
+                    </div>
+                </div>
+                <div class="chart-content chart-content3">
+                    <p>Instagram</p>
+                    <div class="span-line">
+                        <hr><span></span>
+                    </div>
+                </div>
+                <div class="chart-content chart-content4">
+                    <p>Pinterest</p>
+                    <div class="span-line">
+                        <hr><span></span>
+                    </div>
+                </div>
+                <div class="chart-content chart-content5">
+                    <p>Facebook</p>
+                    <div class="span-line">
+                        <hr><span></span>
+                    </div>
+                </div>
+                <div class="chart-content chart-content6">
+                    <p>Twitter</p>
+                    <div class="span-line">
+                        <hr><span></span>
+                    </div>
+                </div>
+                <div class="chart-content chart-content7">
+                    <p>Tumblr</p>
+                    <div class="span-line">
+                        <hr><span></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="dev-traffic">
+            <h3>Traffic by Device</h3>
+            <div class="main-chart">
+                <div>
+                    <div class="chart-content">
+                        <p>900k</p>
+                        <hr>
+                    </div>
+                    <div class="chart-content">
+                        <p>600k</p>
+                        <hr>
+                    </div>
+                    <div class="chart-content">
+                        <p>300k</p>
+                        <hr>
+                    </div>
+                    <div class="chart-content">
+                        <p>0</p>
+                        <hr>
+                    </div>
+                </div>
+                <div class="dev-content">
+                    <span></span>
+                    <div class="device">
+                        <div>
+                            <span class="linux"></span>
+                            <p>Linux</p>
+                        </div>
+                        <div>
+                            <span class="mac"></span>
+                            <p>Mac</p>
+                        </div>
+                        <div>
+                            <span class="iOS"></span>
+                            <p>iOS</p>
+                        </div>
+                        <div>
+                            <span class="windows"></span>
+                            <p>Wind<br>ows</p>
+                        </div>
+                        <div>
+                            <span class="android"></span>
+                            <p>Andr<br>oid</p>
+                        </div>
+                        <div>
+                            <span class="other"></span>
+                            <p>Other</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
 
-    
+
     <script src="https://kit.fontawesome.com/47027db1aa.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

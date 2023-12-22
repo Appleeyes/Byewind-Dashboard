@@ -1,0 +1,402 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(209, 201, 201);
+}
+
+nav{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 12px;
+    margin: 15px auto;
+}
+
+nav h2,
+nav p{
+    color: #00000033;
+}
+
+nav p{
+    font-size: 20px;
+}
+
+nav h1,
+nav h2{
+    font-weight: 500;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#time{
+    margin: 30px 0;
+    display: flex;
+    gap: 5px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+#statuses .status{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#statuses .status > * {
+    padding: 10px;
+    font-family: Inter;
+}
+
+#statuses .status-1,
+#statuses .status-3{
+    border-radius: 16px;
+    background-color: #E3F5FF;
+}
+
+#statuses .status-2,
+#statuses .status-4{
+    border-radius: 16px;
+    background-color: #E5ECF6;
+}
+
+#statuses .badge{
+    display: flex;
+    margin-top: 10px;
+}
+
+#statuses .status p{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+#statuses .status h3{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+}
+
+#statuses .badge p{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    margin-right: 5px;
+}
+
+#statuses .badge img{
+    width: 16px;
+    height: 16px;
+}
+
+#chart{
+    margin-top: 30px;
+    background-color: #F7F9FB;
+    padding: 20px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 16px;
+}
+
+#chart .head{
+    display: flex;
+    justify-content: space-between;
+    width: 117%;
+    margin-bottom: 20px;
+}
+
+#chart .head a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.40);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+#chart .head a.active{
+    color: #000;
+    font-weight: 600;
+}
+
+#chart .chart-content,
+#dev-traffic .chart-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#chart .chart-content:nth-child(5),
+#dev-traffic .chart-content:nth-child(4) {
+    margin-bottom: 0;
+}
+
+#chart .chart-content p,
+#dev-traffic .chart-content p {
+    width: 15%;
+    color: rgba(0, 0, 0, 0.40);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+#chart .chart-content hr,
+#dev-traffic .chart-content hr {
+    flex: 1;
+    margin-top: 10px;
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+#chart .days-content{
+    display: flex;
+    margin-top: 20px;
+}
+
+#chart span{
+    width: 15%;
+}
+
+#chart .days{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#chart .days p{
+    color:rgba(0, 0, 0, 0.40);
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+#chart .img1{
+    position: absolute;
+    top: 130px;
+}
+
+#chart .img2{
+    position: absolute;
+    top: 150px;
+}
+
+#chart .img3{
+    position: absolute;
+    top: 180px;
+    right: 50px;
+}
+
+#chart .img1 img,
+#chart .img2 img{
+    width: 150%;
+}
+
+#chart .img3 img{
+    width: 18px;
+    height: 18px;
+}
+
+#chart .time{
+    position: absolute;
+    top: 130px;
+    right: 5px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#chart .time p{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+#web-traffic{
+    margin-top: 30px;
+    background-color: #F7F9FB;
+    padding: 20px;
+    border-radius: 16px;
+}
+
+#web-traffic h3,
+#dev-traffic h3{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#web-traffic .chart-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#web-traffic .chart-content p {
+    width: 30%;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+#web-traffic .chart-content .span-line{
+    display: flex;
+    align-items: center;
+}
+
+#web-traffic .chart-content span{
+    width: 180px;
+    height: 10px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.05);
+    display: inline-block;
+}
+
+#web-traffic .chart-content hr {
+    flex: 5;
+    height: 20px;
+    width: 1px;
+    background-color: rgba(0, 0, 0, 0.05);
+    margin-right: -1px;
+    border: none;
+}
+
+#web-traffic .chart-content2 span{
+    width: 150px;
+}
+
+#web-traffic .chart-content3 span{
+    width: 170px;
+    background-color: #000;
+}
+
+#web-traffic .chart-content3 hr{
+    background-color: #000;
+}
+
+#web-traffic .chart-content4 span{
+    width: 150px;
+}
+
+#web-traffic .chart-content5 span{
+    width: 170px;
+}
+
+#web-traffic .chart-content6 span{
+    width: 150px;
+}
+
+#web-traffic .chart-content7 span{
+    width: 170px;
+}
+
+#dev-traffic{
+    margin-top: 30px;
+    background-color: #F7F9FB;
+    padding: 20px;
+    border-radius: 16px;
+    position: relative;
+}
+
+#dev-traffic .dev-content{
+    display: flex;
+    margin-top: 20px;
+}
+
+#dev-traffic span{
+    width: 15%;
+}
+
+#dev-traffic .device{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#dev-traffic .device p{
+    color:rgba(0, 0, 0, 0.40);
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+#dev-traffic .device span{
+    position: absolute;
+    width: 20px;
+    display: inline-block;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+#dev-traffic .device .linux{
+    height: 95px;
+    top: 185px;
+    background-color: #BAEDBD;
+    left: 60px;
+}
+
+#dev-traffic .device .mac{
+    height: 105px;
+    top: 174px;
+    background-color: #141414;
+    left: 95px;
+}
+
+#dev-traffic .device .iOS{
+    height: 100px;
+    top: 179px;
+    background-color: #141414;
+    left: 130px;
+}
+
+#dev-traffic .device .mac{
+    height: 105px;
+    top: 175px;
+    background-color: #141414;
+    left: 95px;
+}
+
+#dev-traffic .device .mac{
+    height: 105px;
+    top: 175px;
+    background-color: #141414;
+    left: 95px;
+}
+
+#dev-traffic .device .mac{
+    height: 105px;
+    top: 175px;
+    background-color: #141414;
+    left: 95px;
+}
