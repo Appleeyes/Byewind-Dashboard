@@ -290,7 +290,7 @@ main{
 }
 
 #web-traffic .chart-content1 span{
-    width: 178px;
+    width: 176px;
 }
 
 #web-traffic .chart-content2 span{
@@ -298,7 +298,7 @@ main{
 }
 
 #web-traffic .chart-content3 span{
-    width: 170px;
+    width: 160px;
     background-color: #000;
 }
 
@@ -311,7 +311,7 @@ main{
 }
 
 #web-traffic .chart-content5 span{
-    width: 170px;
+    width: 160px;
 }
 
 #web-traffic .chart-content6 span{
@@ -319,7 +319,7 @@ main{
 }
 
 #web-traffic .chart-content7 span{
-    width: 170px;
+    width: 160px;
 }
 
 #dev-traffic{
