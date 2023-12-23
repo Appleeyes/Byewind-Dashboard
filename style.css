@@ -150,6 +150,12 @@ main{
 #chart .chart-content:nth-child(5),
 #dev-traffic .chart-content:nth-child(4) {
     margin-bottom: 0;
+    
+}
+
+#chart .chart-content:nth-child(5) hr,
+#dev-traffic .chart-content:nth-child(4) hr{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.20);
 }
 
 #chart .chart-content p,
@@ -332,7 +338,7 @@ main{
 
 #dev-traffic .dev-content{
     display: flex;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 #dev-traffic span{
@@ -343,6 +349,7 @@ main{
     display: flex;
     justify-content: space-between;
     width: 100%;
+    margin-left: 15px;
 }
 
 #dev-traffic .device p{
@@ -363,43 +370,43 @@ main{
 }
 
 #dev-traffic .device .linux{
-    height: 95px;
-    top: 185px;
+    height: 90px;
+    flex: 1 0 0;
     background-color: #BAEDBD;
-    left: 60px;
+    top: 188px;
 }
 
 #dev-traffic .device .mac{
     height: 105px;
-    top: 174px;
-    background-color: #141414;
-    left: 95px;
+    flex: 1 0 0;
+    background-color: #C6C7F8;
+    top: 173px;
 }
 
 #dev-traffic .device .iOS{
     height: 100px;
-    top: 179px;
+    flex: 1 0 0;
     background-color: #141414;
-    left: 130px;
+    top: 178px;
 }
 
-#dev-traffic .device .mac{
-    height: 105px;
-    top: 175px;
-    background-color: #141414;
-    left: 95px;
+#dev-traffic .device .windows{
+    height: 160px;
+    flex: 1 0 0;
+    background-color: #B1E3FF;
+    top: 118px;
 }
 
-#dev-traffic .device .mac{
-    height: 105px;
-    top: 175px;
-    background-color: #141414;
-    left: 95px;
+#dev-traffic .device .android{
+    height: 45px;
+    flex: 1 0 0;
+    background-color: #95A4FC;
+    top: 233px;
 }
 
-#dev-traffic .device .mac{
-    height: 105px;
-    top: 175px;
-    background-color: #141414;
-    left: 95px;
+#dev-traffic .device .other{
+    height: 110px;
+    flex: 1 0 0;
+    background-color: #A1E3CB  ;
+    top: 168px;
 }
