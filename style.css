@@ -479,7 +479,7 @@ main{
     background: #95A4FC;
 }
 
-#footer{
+footer{
     display: flex;
     margin-top: 50px;
     justify-content: space-between;
@@ -488,14 +488,15 @@ main{
     font-weight: 400;
     line-height: 18px;
     color: rgba(0, 0, 0, 0.40);
+    padding: 10px;
 }
 
-#footer .left{
+footer .left{
     display: flex;
     justify-content: space-between;
 }
 
-#footer a{
+footer a{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.40);
     margin-right: 10px;
