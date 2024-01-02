@@ -411,35 +411,92 @@ main{
     top: 168px;
 }
 
-#loc-traffic .donut{
+#loc-traffic{
+    margin-top: 30px;
+    background-color: #F7F9FB;
+    padding: 20px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 16px;
+}
+
+#loc-traffic .left-content{    
+    margin-bottom: 10px;
+}
+
+#loc-traffic .left{
+    margin-left: 10px;
+}
+
+#loc-traffic p{
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+#loc-traffic .traffic{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+#loc-traffic .traffic-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 110%;
+    margin-bottom: 30px;
+}
+
+#loc-traffic .dot-content{
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    background: conic-gradient(
-        transparent 0deg 10deg,
-        #95A4FC 0deg 40deg,
-        transparent 40deg 50deg,
-        #C6C7F8 50deg 130deg,
-        transparent 130deg 140deg,
-        #000 140deg 260deg,
-        transparent 260deg 270deg,       
-        #BAEDBD 270deg 510deg
-    );
 }
 
-#loc-traffic .donut::before{
-    content: "";
-    width: 80px; 
-    height: 80px;
-    border-radius: 50%;
-    background: #fff;
+#loc-traffic .dot-content .dot,
+#loc-traffic .left-content{
+    margin-right: 10px;
 }
 
+#loc-traffic .dot{
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+}
 
+#loc-traffic .dot1{
+    background: #000;
+}
 
+#loc-traffic .dot2{
+    background: #C6C7F8;
+}
+#loc-traffic .dot3{
+    background: #BAEDBD;
+}
+#loc-traffic .dot4{
+    background: #95A4FC;
+}
 
+#footer{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.40);
+}
 
+#footer .left{
+    display: flex;
+    justify-content: space-between;
+}
 
+#footer a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.40);
+    margin-right: 10px;
+}
