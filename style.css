@@ -509,7 +509,7 @@ footer a {
   display: none;
 }
 
-@media only screen and (min-width: 1500px) {
+@media only screen and (min-width: 1300px) {
   #left,
   #right,
   #marketing,
@@ -524,7 +524,7 @@ footer a {
 
   #left {
     width: 15%;
-    padding: 30px;
+    padding: 30px 15px 30px 30px;
     box-shadow: 2px 0 2px rgba(0, 0, 0, 0.1);
   }
 
@@ -543,10 +543,10 @@ footer a {
 
   #left .avatar h3 {
     margin-left: 10px;
-    font-size: 14px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 15px;
   }
 
   #left .fav-container,
@@ -561,10 +561,10 @@ footer a {
   }
 
   #left .fav-title h3 {
-    font-size: 14px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 15px;
     color: rgba(0, 0, 0, 0.4);
   }
 
@@ -580,27 +580,27 @@ footer a {
   }
 
   #left .fav-dot {
-    width: 6px;
-    height: 6px;
+    width: 5px;
+    height: 5px;
     border-radius: 50%;
     background: #00000033;
     margin-right: 10px;
   }
 
   #left .fav-content p {
-    font-size: 14px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 15px;
   }
 
   #left .dash-container h3,
   #left .page-container h3 {
     color: rgba(0, 0, 0, 0.4);
-    font-size: 14px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 15px;
     margin-bottom: 20px;
   }
 
@@ -608,6 +608,12 @@ footer a {
   #left .page-content {
     display: flex;
     margin-bottom: 20px;
+    align-items: center;
+  }
+
+  #left .dash-content .img {
+    height: 18px;
+    width: 18px;
   }
 
   #left .open-page li {
@@ -649,10 +655,10 @@ footer a {
   #left .page-content p,
   #left .open-page ul a {
     margin-left: 10px;
-    font-size: 14px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 15px;
   }
 
   #left .logo {
@@ -690,6 +696,12 @@ footer a {
     justify-content: space-between;
     gap: 1rem;
     margin-right: 20px;
+  }
+
+  #middle nav p,
+  #middle nav h1,
+  #middle nav h2 {
+    font-size: 15px;
   }
 
   #middle .search-container {
@@ -736,6 +748,15 @@ footer a {
     gap: 1rem;
   }
 
+  #statuses .status > * {
+    padding: 7px;
+  }
+
+  #statuses .status p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
   #middle .flex1,
   #middle .flex2 {
     display: flex;
@@ -751,6 +772,11 @@ footer a {
     width: auto;
     margin-bottom: 20px;
     gap: 7px;
+  }
+
+  #chart .head a {
+    font-size: 12px;
+    line-height: 15px;
   }
 
   #chart .dot {
@@ -792,20 +818,20 @@ footer a {
   }
 
   #chart .img3 {
-    top: 170px;
+    top: 180px;
     right: 189px;
   }
 
   #chart .img1 img,
   #chart .img2 img {
-    width: 200%;
+    width: 170%;
   }
 
   #chart .img1,
   #chart .img2 {
     top: auto;
-    bottom: 120px;
-    left: 390px;
+    bottom: 130px;
+    left: 280px;
     transform: scaleY(-1);
     transform: scaleX(-1);
   }
@@ -815,23 +841,23 @@ footer a {
   }
 
   #web-traffic .chart-content p {
-    width: 40%;
+    width: 50%;
   }
 
   #web-traffic .chart-content1 span {
-    width: 100px;
+    width: 70px;
   }
 
   #web-traffic .chart-content2 span,
   #web-traffic .chart-content4 span,
   #web-traffic .chart-content6 span {
-    width: 75px;
+    width: 55px;
   }
 
   #web-traffic .chart-content3 span,
   #web-traffic .chart-content5 span,
   #web-traffic .chart-content7 span {
-    width: 85px;
+    width: 60px;
   }
 
   #dev-traffic {
@@ -854,8 +880,8 @@ footer a {
   #loc-traffic .left-content {
     display: flex;
     justify-content: space-between;
-    gap: 2rem;
-    margin-right: 50px;
+    gap: 1rem;
+    margin-right: 30px;
   }
 
   #marketing {
@@ -909,10 +935,10 @@ footer a {
   #right .notification-container h3,
   #right .activity-container h3,
   #right .contact-container h3 {
-    font-size: 14px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 600;
-    line-height: 20px;
+    line-height: 15px;
     margin-bottom: 20px;
   }
 
@@ -925,28 +951,28 @@ footer a {
     margin-bottom: 27px;
   }
 
-  #right .notification-item img{
-    padding: 5px;
+  #right .notification-item img {
+    padding: 3px;
     border-radius: 30%;
   }
 
-  #right .notification-item .img1{
-    background-color: #E3F5FF;
+  #right .notification-item .img1 {
+    background-color: #e3f5ff;
   }
 
-  #right .notification-item .img2{
-    background-color: #E5ECF6;
+  #right .notification-item .img2 {
+    background-color: #e5ecf6;
   }
 
   #right .notification-info p,
   #right .activity-info p,
-  #right .contac-info p {
+  #right .contact-info p {
     overflow: hidden;
     white-space: nowrap;
-    font-size: 14px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px;
+    line-height: 15px;
   }
 
   #right .notification-info span,
@@ -954,9 +980,133 @@ footer a {
     overflow: hidden;
     color: rgba(0, 0, 0, 0.4);
     white-space: nowrap;
-    font-size: 12px;
+    font-size: 10px;
     font-style: normal;
     font-weight: 400;
+    line-height: 15px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  #left .avatar h3 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  #left .fav-title h3 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  #left .fav-dot {
+    width: 6px;
+    height: 6px;
+  }
+
+  #left .fav-content p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  #left .dash-container h3,
+  #left .page-container h3 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  #left .dash-content .img {
+    height: 20px;
+    width: 20px;
+  }
+
+  #left .dash-content p,
+  #left .page-content p,
+  #left .open-page ul a {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  #middle nav p,
+  #middle nav h1,
+  #middle nav h2 {
+    font-size: 20px;
+  }
+
+  #statuses .status > * {
+    padding: 10px;
+  }
+
+  #statuses .status p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  #chart .head a {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  #chart .img3 {
+    top: 170px;
+  }
+
+  #chart .img1 img,
+  #chart .img2 img {
+    width: 200%;
+  }
+
+  #chart .img1,
+  #chart .img2 {
+    bottom: 120px;
+    left: 390px;
+  }
+
+  #web-traffic .chart-content p {
+    width: 40%;
+  }
+
+  #web-traffic .chart-content1 span {
+    width: 100px;
+  }
+
+  #web-traffic .chart-content2 span,
+  #web-traffic .chart-content4 span,
+  #web-traffic .chart-content6 span {
+    width: 75px;
+  }
+
+  #web-traffic .chart-content3 span,
+  #web-traffic .chart-content5 span,
+  #web-traffic .chart-content7 span {
+    width: 85px;
+  }
+
+  #loc-traffic .left-content {
+    gap: 2rem;
+    margin-right: 50px;
+  }
+
+  #right .notification-container h3,
+  #right .activity-container h3,
+  #right .contact-container h3 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  #right .notification-item img {
+    padding: 5px;
+  }
+
+  #right .notification-info p,
+  #right .activity-info p,
+  #right .contact-info p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  #right .notification-info span,
+  #right .activity-info span {
+    font-size: 12px;
     line-height: 18px;
   }
 }
