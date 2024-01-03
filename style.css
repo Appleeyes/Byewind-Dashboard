@@ -1062,7 +1062,7 @@ footer a {
   #marketing .chart-content {
     display: flex;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
 
   #marketing .chart-content p {
@@ -1151,7 +1151,7 @@ footer a {
 
   #right .dark-mode,
   #dark #right .light-mode{
-    margin-top: 150px;
+    margin-top: 170px;
   }
 
   #right .dark-mode a{
@@ -1302,5 +1302,10 @@ footer a {
   #right .activity-info span {
     font-size: 12px;
     line-height: 18px;
+  }
+
+  #right .dark-mode,
+  #dark #right .light-mode{
+    margin-top: 120px;
   }
 }
