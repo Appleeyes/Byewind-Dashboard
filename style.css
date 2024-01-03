@@ -1032,10 +1032,6 @@ footer a {
     font-size: 20px;
   }
 
-  #statuses .status > * {
-    padding: 10px;
-  }
-
   #statuses .status p {
     font-size: 14px;
     line-height: 20px;
