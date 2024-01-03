@@ -1048,13 +1048,13 @@ footer a {
 
   #chart .img1 img,
   #chart .img2 img {
-    width: 200%;
+    width: 190%;
   }
 
   #chart .img1,
   #chart .img2 {
     bottom: 120px;
-    left: 390px;
+    left: 360px;
   }
 
   #web-traffic .chart-content p {
